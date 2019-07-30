@@ -1,0 +1,309 @@
+<!doctype html>
+<html>
+<style >
+*{
+  background-color: powderblue;
+  color:darkblue;
+}
+.topmenu {
+   /* position:absolute;  */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+}
+.topmenu li {
+    float: right;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: #222;
+     background-color: ;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: black ;
+}
+.column {
+    float: right;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.dropdown{
+  float:middle;
+}
+.dropbtn {
+  right:0;
+  float:middle;
+    background-color: slategrey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+</style>
+
+<head>
+  <title>Anti-Drowning</title>
+  <link rel="stylesheet" type="text/css" href="Mon.css">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>  
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+
+    <ul class="topmenu">
+      <li><a href="contact.html">...</a></li>
+      <li><a href="github.com/Agatha18" target"_blank">GitHub</a></li>
+  <!--    <li><a href="#contact">Embedding</a></li>-->
+      <li><a  href="limitations.html" target="_blank">Limitations...</a></li>
+      <li><a href="#" class="active">Overview</a></li>
+     </ul>
+    
+    <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <!--Start Intro-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <div id="myImg"><img class="image" src="img/MODULE.jpg"> 
+            </div> 
+              <div class="title">
+                 <h1>ANTI-DROWNING SYSTEM WITH REMOTE ALERT</h1>
+              </div>
+          </div>
+          <style>
+             #myImg {
+              border-radius: 5px;
+              cursor: pointer;
+              transition: 0.3s;}
+             #myImg:hover {opacity: 0.7;}
+               }
+             .title{
+              font-style: sans-serif tahoma;
+              font-color:darkblue;
+             }
+          </style>
+            
+
+
+
+        <div class="clearfix">
+     <div class="column sidemenu">
+          <div class="flex-item flex-column">
+            <p class="text text-large">
+    
+            
+          <!--    <a target="_blank" href="javascript:void(0)">MAKERERE  UNIVERSITY</a><br>
+              <a target="_blank" href="javascript:void(0)">College Of Computing and Information Science</a><br>
+              <a target="_blank" href="javascript:void(0)">Kampala</a><br>
+              <a target="_blank" href="javascript:void(0)">City, State, Country</a>  -->
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text add-top-margin">
+          </div>
+        </div>
+      </div>      
+    </div>      
+    </div>
+        <!--End Intro-->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Project Overview</h2>
+            <hr>
+            <p class="text">
+               The RF module, as the name suggests, operates at Radio Frequency. The corresponding frequency range varies between 30 kHz & 300 GHz. In this RF system, the digital data is represented as variations in the amplitude of carrier wave. This kind of modulation is known as Amplitude Shift Keying (ASK).
+             <p>Transmission through RF is better than IR (infrared) because of many reasons. Firstly, signals through RF can travel through larger distances making it suitable for long range applications. Also, while IR mostly operates in line-of-sight mode, RF signals can travel even when there is an obstruction between transmitter & receiver. Next, RF transmission is more strong and reliable than IR transmission. RF communication uses a specific frequency unlike IR signals which are affected by other IR emitting sources </p>
+            <p>This RF module comprises of an RF Transmitter and an RF Receiver. The transmitter/receiver (Tx/Rx) pair operates at a frequency of 434 MHz. An RF transmitter receives serial data and transmits it wirelessly through RF through its antenna connected at pin4. The transmission occurs at the rate of 1Kbps - 10Kbps.The transmitted data is received by an RF receiver operating at the same frequency as that of the transmitter.</p>
+            <h3>Hardware Components </h3>
+            <p class="text">
+              The RF module requires separate connection for the transmitter and the receiver circuits. Here is a list of materials used to build the project for both circuits.
+            </p>
+            <ul>
+              <li>Transmitter circuit</li>
+              <ul>
+                <li>RF transmitter</li>              
+                <li>Push button</li>
+                <li>10 ohm resistor</li>
+                <li>Jumper wires</li>
+              </ul>
+              <li>Receiver circuit</li>
+              <ul>
+                <li>RF transmitter</li>
+                <li>LED bulb</li>
+                <li>Piezo buzzer</li>
+                <li>10 ohm resistor</li>
+              </ul>
+               <li>Arduino UNO board</li>
+                 <li>Breadboard</li>
+            </ul><div class="flex-item flex-column">
+ 
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin"> Transmitter & Receiver Circuits</h2>
+            <hr>
+            <p class="text">
+             <big>Transmitter Circuit:</big> It is simply interfaced with a button that sets on that sends the wireless connection to the reveiver. To it is the GSM module that is meant to alert the pool owner by text sms.
+            </p>
+          </div>
+        </div>
+        <div class="flex-row-space-between">
+          <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/rft.jpg">
+            <p class="image-caption">RF Transmitter</p>
+          </div>
+          <div class="flex-item flex-column">
+            <a href="https://github.com/yenchiah/project-website-template" target="_blank" class="image max-width-400">
+              <img src="img/receiver.jpg">
+            </a>
+            <p class="image-caption">RF Receiver</p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+              <big>Receiver Code:</big>It is to this circuit that the buzzer and led are connected such that they are turned on once communication is established between the Transciever circuits after pressing the button.
+            </p>
+          </div>
+        </div>    </div>
+        <!--End Text around Images-->
+        <!--Start Text with Images and Videos-->
+<!--        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Birdge diagram of the RF module</h2>
+            <hr>
+              <img src="img/block_diagram.jpg">
+            <a class="image adaptive-image" style="background-image: url('img/block_diagram.jpg'); min-height: 150px;" href="img/block_diagram.jpg" target="_blank"></a>
+           <img src="imb/block_diagram.jpg">
+          </div>
+        
+ -->
+          <div class="flex-item flex-column full-width">
+            <h2 class="add-top-margin">List of Projects</h2>
+            <hr>
+          </div>
+        </div> 
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-400" src="img/2.jpg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">Led & Buzzer Circuits<link rel="stylesheet" type="text/css" href="www.theorycircuit.com/tag/led-with-buzzer/"> </a><br>
+              Simple Mobile phone detector circuit designed with few easily available components ... yes the LED fader circuit or chaser circuit with buzzer works with pulse …
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-400" src="img/imagrf.jpg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">Arduino and RF Transmitter Module - Electronics Hub</a><br>
+              
+              An RF transmitter receives serial data and transmits it wirelessly through RF through its antenna connected at pin4. The transmission occurs at the rate of 1Kbps - 10Kbps.The transmitted data is received by an RF receiver operating at the same frequency as that of the transmitter.
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="image max-width-400" src="img/GS.jpg">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
+            <p class="text">
+              <a class="highlight-text" href="javascript:void(0)">GSM Module <link rel="stylesheet" type="text/css" href="https://www.elprocus.com/gsm-architecture-features-working/"></a><br>
+               The word GSM Refers to Global System for Mobile Communications. Nowadays many people are showing lot of interest to know more about GSM related concepts. So, here we have published a list of various GSM based projects ideas which are having more demand and very interesting to learn. All these GSM based projects are listed here especially for final year engineering students of electronics. These projects would give better idea about the GSM technology practically.s
+            </p>
+          </div>
+        </div>
+        <!--End List of Projects-->
+        <!--Start Credits-->
+         <div class="dropdown">
+            <big><h1> <button class="dropbtn"> AUTHORS</button></h1>  
+            </big>
+          <div class="dropdown-content">
+              <a target="_blank" href="javascript:void(0)">Agatha</a> <link rel="stylesheet" type="text/css" href="nagatha@cis.mak.ac.ug<br>"> 
+              <a target="_blank" href="javascript:void(0)">Faith</a> <link rel="stylesheet" type="text/css" href="ftaremwa@cis.mak.ac.ug<br>"> 
+              <a target="_blank" href="javascript:void(0)">Dianah</a> <link rel="stylesheet" type="text/css" href=",3dnakakande@cis.mak.ac.ug<br>"> 
+              <a target="_blank" href="javascript:void(0)">John</a> <link rel="stylesheet" type="text/css" href="jmukajanga@cis.mak.ac.ug<br>"> 
+              <a target="_blank" href="javascript:void(0)">Juma</a><link rel="stylesheet" type="text/css" href="dwjuma@cis.mak.ac.ug<br>     "> 
+           </div>
+
+            <img src="img/image1.jpg">
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic">
+              Credits: <span class="highlight-text"></span>: Last Minute engineers , electronicshub.orgs &  <span class="highlight-text">GutHub.com</span>
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+      </div>
+    </div>
+  </div>
+  <footer>
+  <p><a class="buton" href="contact.html">Readmore..</a></p>  </footer>
+</body>
+
+</html>
